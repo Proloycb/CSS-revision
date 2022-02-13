@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .first-heading {
+            color: darkblue;
+        }
+        h1 {
+            background-color: cyan;
+            color: aqua;
+        }
+        h1 {
+            color: cadetblue !important;
+        }
+        #third {
+            color: darkgoldenrod;
+        }
+        p {
+            border: 2px solid darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="first-heading">My heading number-1</h1>
+    <h1 class="first-heading">My heading number-2</h1>
+    <h1 id="third" class="first-heading" style="color: darkred;">My heading number-3</h1>
+    <h1 class="first-heading">My heading number-4</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Velit nobis eum sint est!</p>
+    <p>Ullam accusantium sint corrupti! Corrupti.</p>
+    <p>Quidem quos eum expedita aperiam?</p>
+</body>
+</html>
